@@ -1,0 +1,31 @@
+.card {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    display: grid;
+    gap: 1rem;
+}
+
+.card div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.card div h4 {
+    font-size: .65rem;
+}
+
+.card div .author {
+    color: #FA1CC3 !important;
+}
+
+.card div h4 {
+    color: #352C71;
+}
+
+.card h3 {
+    color: #352C71;
+    font-size: 1.65rem;
+    font-weight: 400;
+}

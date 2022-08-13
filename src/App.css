@@ -1,0 +1,192 @@
+.App {
+  background-color: #fff;
+}
+
+.App header {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 12vh auto;
+}
+
+.App header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem 6.5rem;
+  width: 100%;
+}
+
+.App header nav .right-div {
+  margin-right: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.App header nav .right-div button {
+  padding: .5rem;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.App header nav .right-div .signUp {
+  color: #fff;
+  background-color: #FA1CC3;
+}
+
+.App header nav img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.App header nav ul {
+  display: flex;
+  list-style: none;
+  font-size: .85rem;
+  gap: 1.5rem;
+  margin-left: -28rem;
+}
+
+.App header .girl1 {
+  position: absolute;
+  /* height: 640px; */
+  height: 100vh;
+  width: 660px;
+  right: 6rem;
+  z-index: 1;
+}
+
+.header__body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.header__body h2 {
+  font-size: 3rem;
+  color: #6A58E2;
+}
+
+.header__body h2 span {
+  color: #C21697;
+}
+
+.header__body h3 {
+  color: #969696;
+  font-size: .85rem;
+  font-weight: 300;
+}
+
+.users img {
+  height: 3rem;
+}
+
+.section1 {
+  background-color: #F5F5F5;
+  padding: 3.5rem 1.5rem;
+  display: grid;
+}
+
+.section1 h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  line-height: 140%;
+}
+
+.section1 .categories {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 1rem;
+  align-items: center;
+}
+
+.categories .active {
+  background-color: #FA1CC3;
+  color: #fff !important;
+  padding: .85rem 1rem;
+  border-radius: 10px;
+}
+
+.section1 .categories li {
+  color: #595959;
+  cursor: pointer;
+}
+
+.card-container {
+  max-width: 1260px;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  padding: 1.5rem 0;
+}
+
+.section1 button {
+  margin: 0 auto;
+  margin-top: 1.5rem;
+}
+
+.section2 {
+  padding: 2rem 4rem 0 6.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1400px;
+}
+
+.section2 .content {
+  display: grid;
+  place-content: center;
+  row-gap: 1.5rem;
+  margin-right: -3rem;
+  padding: 0 3rem;
+}
+
+.section2 .content h2 {
+  color: #6A58E2;
+  font-size: 2.85em;
+}
+
+.section2 .content h4,
+.section2 .content ul {
+  font-size: 1rem;
+  line-height: 140%;
+  width: 120%;
+  color: #6B6B6B;
+  font-weight: 400;
+}
+
+.section2 .content ul {
+  margin-left: 1.2rem;
+}
+
+.section2 .image img {
+  width: 600px;
+}
+
+@media screen and (max-width: 968px) {
+  .App header {
+    position: relative;
+  }
+
+  .App header nav {
+    position: absolute;
+    z-index: 2;
+    background-color: #fff;
+    padding: .5rem 1.5rem;
+  }
+
+  .App header ul {
+    display: none !important;
+  }
+
+  .header__body {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    justify-content: center;
+    padding: 5rem;
+  }
+}
