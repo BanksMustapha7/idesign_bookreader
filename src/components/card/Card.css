@@ -3,7 +3,7 @@
     padding: 1rem;
     border-radius: 10px;
     display: grid;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .card div {
@@ -14,18 +14,15 @@
 
 .card div h4 {
     font-size: .65rem;
+    color: #352C71;
 }
 
 .card div .author {
     color: #FA1CC3 !important;
 }
 
-.card div h4 {
-    color: #352C71;
-}
-
 .card h3 {
     color: #352C71;
     font-size: 1.65rem;
-    font-weight: 400;
+    font-weight: 600;
 }

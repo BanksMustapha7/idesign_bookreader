@@ -61,42 +61,42 @@ function App() {
         </ul>
         <div className="card-container">
           <Card
-            author="Outliers (Story of Success)"
+            author="Malcom Gladwell"
             time="10 hours Read"
-            title="Testing"
+            title="Outliers (Story of Success)"
             img={Book1}
           />
 
           <Card
-            author="Banks Mustapha"
-            time="5 hours ago"
-            title="Testing"
+            author="Damilare Kuti"
+            time="10 hours Read"
+            title="Nearly All The Men In Lagos Are Mad"
             img={Book2}
           />
           <Card
-            author="Banks Mustapha"
-            time="5 hours ago"
-            title="Testing"
+            author="Chimamanda Adiche"
+            time="10 hours Read"
+            title="Half of A Yellow Sun"
             img={Book3}
           />
           <Card
-            author="Banks Mustapha"
-            time="5 hours ago"
-            title="Testing"
+            author="Rober T"
+            time="8 hours Read"
+            title="Rich Dad, Poor Dad"
             img={Book4}
           />
 
           <Card
-            author="Banks Mustpha"
-            time="5 hours ago"
-            title="Testing"
+            author="Ben Carson"
+            time="10 hours Read"
+            title="Think Big"
             img={Book5}
           />
 
           <Card
-            author="Banks Mustpha"
-            time="5 hours ago"
-            title="Testing"
+            author="Ganiu Gbamgbose"
+            time="6 hours Read"
+            title="Grammar In Discourse Form"
             img={Book6}
           />
         </div>
@@ -124,6 +124,40 @@ function App() {
           <img src={Girl2} alt="" />
         </div>
       </section>
+
+      <div className="platforms">
+        <h3>Listen to Interesting books on your favourite platform</h3>
+        <div className="img">
+          <div className="">
+            <img src="" alt="spotify" />
+            <div className="">
+              <h4>Spotify</h4>
+              <small>Listen Now</small>
+            </div>
+          </div>
+          <div className="">
+            <img src="" alt="Audiomack" />
+            <div className="">
+              <h4>Audiomack</h4>
+              <small>Listen Now</small>
+            </div>
+          </div>
+          <div className="">
+            <img src="" alt="google_podcast" />
+            <div className="">
+              <h4>Google Podcast</h4>
+              <small>Listen Now</small>
+            </div>
+          </div>
+          <div className="">
+            <img src="" alt="iTunes" />
+            <div className="">
+              <h4>iTunes</h4>
+              <small>Listen Now</small>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
